@@ -21,12 +21,9 @@
 .people-table {
     width: 100%;
     max-width: 1200px;
-    /* Set a max-width to make the table wider */
     border-collapse: collapse;
     margin: 0 auto;
-    /* Center the table horizontally */
     table-layout: fixed;
-    /* Ensures columns stay at a consistent width */
 }
 
 .people-table th,
@@ -51,5 +48,4 @@
 
 .people-table td {
     word-wrap: break-word;
-    /* Ensures long text breaks to fit cell width */
 }
